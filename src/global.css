@@ -64,3 +64,34 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .title-lg {
+    @apply font-dm-sans text-[1.75rem] font-bold;
+  }
+  .title-md {
+    @apply font-dm-sans text-[1.5rem] font-bold;
+  }
+  .title-sm {
+    @apply font-dm-sans text-[1.125rem] font-bold;
+  }
+  
+  .subtitle {
+    @apply font-semibold;
+  }
+  .body-sm {
+    @apply text-[0.875rem];
+  }
+  .label-md {
+    @apply text-[0.75rem] font-medium uppercase;
+  }  
+  .label-sm {
+    @apply text-[0.625rem] font-medium uppercase;
+  }
+  .action-md {
+    @apply font-medium;
+  } 
+  .action-sm {
+    @apply text-[0.875rem] font-medium;
+  } 
+}
